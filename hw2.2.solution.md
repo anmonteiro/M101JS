@@ -11,7 +11,9 @@ while (cursor.hasNext()) {
    if (next.State != cState) {
      cState = next.State;
      
-     db.data.update({"_id" : next._id}, {"$set":{"month_high" : true}});
+     db.data.update( { "_id" : next._id },
+     				 { "$set" : { "month_high" : true} }
+     			   );
    }
 }
 ```
