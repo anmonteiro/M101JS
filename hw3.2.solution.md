@@ -1,4 +1,4 @@
-# Homework Assignment 2.3 Solution
+# Homework Assignment 3.2 Solution
 
 Solution for this Homework is located in the blog/ folder.
 The objective for this homework was writing code to handle inserting new posts. It involved completing the following function:
