@@ -15,6 +15,13 @@ cursor.forEach(function (doc) {
   });
 
   doc.scores = doc.scores.splice(1);
-  db.students.update({_id:doc._id}, {"$set": { "scores": doc.scores}})
+  db.students.update({
+    _id : doc._id
+  }, {
+    "$set": {
+      "scores": doc.scores
+    }
+  });
+
 });
 ```
