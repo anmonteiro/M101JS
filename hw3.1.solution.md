@@ -18,8 +18,8 @@ cursor.forEach(function (doc) {
   db.students.update({
     _id : doc._id
   }, {
-    "$set": {
-      "scores": doc.scores
+    "$set" : {
+      "scores" : doc.scores
     }
   });
 
