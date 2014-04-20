@@ -17,7 +17,7 @@ db.posts.ensureIndex({
 ```
 
 
-## Index for the blog homepage
+## Index for getting a post by permalink
 
 ```javascript
 db.posts.ensureIndex({ "permalink" : 1})
